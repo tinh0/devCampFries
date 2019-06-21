@@ -1,0 +1,76 @@
+/* Footer */
+.footer-wrapper {
+    height: 400px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    margin-top: -4px;
+}
+
+.footer-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.footer-wrapper > .footer-contents > .links-wrapper {
+    width: 400px;
+}
+
+.footer-wrapper > .footer-contents > .footer-image img {
+    width: 10em;
+    height: 100%;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+.footer-wrapper > .footer-contents > .contact-hours-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-wrapper > .footer-contents > .contact-hours-wrapper > .hours {
+    color: #cea135;
+}
+
+.footer-wrapper > .footer-contents > .contact-hours-wrapper > .phone:hover {
+    transition: .5s;
+    color: #cea135;
+}
+
+.footer-wrapper > .footer-contents > .social-media-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 200px;
+    font-size: 2em;
+}
+
+.footer-wrapper > .footer-contents > .social-media-wrapper a:hover{
+    transition: .5s;
+    color: #cea135;
+}
+
+.footer-wrapper > .footer-contents > .social-media-wrapper a {
+    color: #cbcbcb;
+
+}
+
+.footer-wrapper > .footer-contents > .footer-image {
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-wrapper > .footer-contents > .copyright {
+    display: flex;
+    justify-content: center;
+    font-size: .75em;
+    font-family: 'Roboto Slab', sans-serif;
+    opacity: .75;
+}
